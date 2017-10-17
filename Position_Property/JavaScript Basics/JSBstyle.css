@@ -1,0 +1,12 @@
+#background{
+    background-color:darkblue;
+    width: 970px;
+    height: 550px;
+}
+
+#header{
+    background-color: firebrick;
+    width: 970px;
+    height: 100px;
+    margin: 12px;
+}

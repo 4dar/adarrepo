@@ -1,0 +1,66 @@
+div{
+    
+    /* padding: 20px; */
+    border: solid black 4px;
+}
+
+#parentDiv{
+    height: 600px;
+    width: 600px;
+    background-color: lightgray;
+}
+
+.red {
+    display: inline-block;
+    background-color: red;
+    width: 254px;
+    height: 110px;
+    margin: 24px 24px 24px 0px;
+}
+
+#red2{
+margin-left: 24px;
+}
+
+#blue{
+    background-color: blue;
+    width: 544px;
+    height: 110px;
+    margin: 0px 24px 24px 24px;
+}
+
+.yellow{
+    display: inline-block;
+    background-color: yellow;
+    width: 157px;
+    height: 110px;
+    margin: 0px 24px 24px 0px;
+}
+
+#yellow2{
+    margin-left: 24px;
+}
+
+
+#green{
+    background-color: green;
+    width: 544px;
+    height: 110px;
+    margin: 0px 24px 24px 24px;
+}
+
+.purple{
+    background-color:purple;
+    height: 80px;
+    width: 80px;
+    margin: 11px;
+    display: inline-block;
+}
+
+#purple2{
+    margin-right: 171px;
+}
+
+#purple3{
+    margin-left: 171px;
+}

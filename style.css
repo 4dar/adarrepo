@@ -1,0 +1,24 @@
+*{
+    padding: 10px;
+}
+
+#wrapper{
+    width: 500px;
+    background-color: orange;
+}
+
+h1{
+    color: brown;
+}
+
+#header{
+    background-color: purple;
+}
+
+#main-content{
+    background-color: pink;
+}
+
+#footer{
+    background-color: fuchsia;
+}
