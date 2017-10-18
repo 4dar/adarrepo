@@ -1,6 +1,6 @@
 #background{
-    background-color: rgba(100, 67, 100, 0.69);
-    height: 1000px;
+    background: linear-gradient(#351F35, white);
+    height: 1200px;
     width: 1000px;
 }
 
@@ -13,7 +13,7 @@
 
 h1{
     display: inline-block;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fantasy;
     padding-left: 10px;
     margin-top: 0px;
 }
@@ -45,9 +45,12 @@ h3{
 
 #aboutbar{
     display: inline-block;
-    background-color: silver;
+    vertical-align: top;
+    background: linear-gradient(#656C7E,
+    #d4dde8);
     height: 50px;
-    width: 498px;
+    width: 488px;
+    padding: 5px;
 }
 
 h2{
@@ -57,7 +60,7 @@ h2{
 
 .threebodies{
     display: inline-block;
-    height: 520px;
+    height: 700px;
     width: 305px;
     background-color: #FFE2FF;
     margin: 11px;
@@ -82,8 +85,72 @@ h2{
 }
 .graybars{
     display: inline-block;
-    background-color: silver;
+    background: linear-gradient(#656C7E,
+    #d4dde8);
     height: 50px;
     width: 305px;
     vertical-align: top;
+}
+
+.bodytext{
+    color: black;
+}
+.graybarstech{
+    display: inline-block;
+    height: 50px;
+    width: 305px;
+    background: linear-gradient(#656C7E,
+    #d4dde8);
+}
+#lamode .graybarstech{
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+#familycontacts .graybarstech{
+    margin-top: 10px;
+}
+
+#fiveeleven .graybarstech{
+    margin-top: -8px;
+}
+
+.lamodelogopics{
+    height: 55px;
+    width: 55px;
+    margin: 5px 1px 0px 1px;
+}
+
+#lamodebutton{
+    background-color: #427C62;
+    color: white;
+    border-radius: 5px;
+}
+
+.famcontlogos{
+    height: 55px;
+    width: 55px;
+    margin: 5px 1px 0px 1px;
+}
+
+#famcontbutton{
+    background-color: #427C62;
+    color: white;
+    border-radius: 5px;
+}
+
+.fiveelogos{
+    height: 55px;
+    width: 55px;
+    margin: 5px 1px 0px 1px;
+}
+
+#fiveelogobutton{
+    background-color: #427C62;
+    color: white;
+    border-radius: 5px;
+}
+
+.contactlogos{
+    height: 15px;
+    width: 15px;
 }
