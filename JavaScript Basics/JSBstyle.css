@@ -1,7 +1,7 @@
 #background{
     background-color: darkblue;
     width: 970px;
-    height: 550px;
+    height: 600px;
 }
 
 #header{
@@ -33,32 +33,66 @@ a{
 }
 
 ul li{
-    font-size: 10px;
+    font-size: 14px;
+}
+
+#tealboxlist{
+    margin-left:-10px;
+    margin-top: -10px;
 }
 
 #homelink{
     display: inline-block;
-    padding-left: 22px;
-    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 11px;
 }
 
 #blackbox{
     display: inline-block;
     background-color: black;
-    height: 390px;
+    height: 405px;
     width: 745px;
     margin: 10px;
     vertical-align: top;
     border-radius: 10px;
 }
+.definitionlinks{
+    font-size: 12px;
+    color: turquoise;
+}
+.blackboxtext{
+    font-size: 12px;
+}
 
+#javadefinition{
+    color: lightblue;
+    margin-left: 18px;
+}
+.definitionlist{
+    color: lightblue;
+
+}
 h3{
     color: lightblue;
     padding-left: 15px;
 }
 
 #graybox{
+    display: inline-block;
     background-color: gray;
     width: 950px;
-    height: 30px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 30px 10px;
+    position: relative;
+}
+#graybox p{
+    font-size: 16px;
+    color: lightblue;
+    margin-left: 10px;
+}
+
+#usefulurl{
+    color: teal;
+    font-size: 18px;
 }
