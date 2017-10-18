@@ -1,0 +1,89 @@
+#background{
+    background-color: rgba(100, 67, 100, 0.69);
+    height: 1000px;
+    width: 1000px;
+}
+
+#header{
+    background-color: #E4E4E4;
+    height: 50px;
+    width: 1000px;
+    padding-top: 5px;
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+h3{
+    display: inline-block;
+    margin-left: 510px;
+    margin-top: 10px;
+}
+
+#jaynedoepic{
+    display: inline-block;
+    width: 440px;
+    border: 4px solid lightgray;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.aboutbox{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFE2FF;
+    height: 297px;
+    width: 498px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#aboutbar{
+    display: inline-block;
+    background-color: silver;
+    height: 50px;
+    width: 498px;
+}
+
+h2{
+    color: white;
+}
+
+
+.threebodies{
+    display: inline-block;
+    height: 520px;
+    width: 305px;
+    background-color: #FFE2FF;
+    margin: 11px;
+    vertical-align: top;
+    color: white;
+}
+
+#footer{
+    background-color: #E4E4E4;
+    height: 105px;
+    width: 1000px;
+}
+
+#lamodepic{
+    width: 305px;
+}
+#famcontpic{
+    width: 305px;
+}
+#fiveepic{
+    width: 305px;
+}
+.graybars{
+    display: inline-block;
+    background-color: silver;
+    height: 50px;
+    width: 305px;
+    vertical-align: top;
+}
