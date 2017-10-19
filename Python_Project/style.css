@@ -200,3 +200,33 @@ h4{
     margin-top: 35px;
 
 }
+.navbarlinks{
+    color: white;
+}
+
+
+a{
+    color: #6A9DC7;
+    text-decoration: none;
+}
+
+.textsizecolor{
+    color: #FED343;
+}
+
+.linklistdecor{
+    color: white;
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+}
+
+#gobutton{
+    height: 30px;
+    width: 40px;
+    background-color: #265175;
+    color: white;
+    border-radius: 5px;
+}
