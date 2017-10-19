@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+#container{
+    background-color: #265175;
+    height: 970px;
+    width: 970px;
+}
+
+#header img{
+    display: inline-block;
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#header p{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 420px;
+    color: white;
+}
+
+#headerhalf{
+    background-color: pink;
+}
+
+#blackline{
+    color: black;
+}
+
+#searchbox{
+    height: 25px;
+    width: 120px;
+}
+
+#searchbackground{
+    background-color: #3B3B3B;
+    height: 60px;
+    width: 240px;
+    border-radius: 5px;
+}
