@@ -110,7 +110,7 @@
 
 #whitearea{
     background-color: #E9E9E9;
-    height: 270px;
+    height: 290px;
     width: 970px;
 }
 
@@ -131,10 +131,9 @@
 }
 
 #footer{
-    background-color: lightblue;
-    height: 100px;
+    background: linear-gradient(#265175, #3581BE);
+    height: 80px;
     width: 970px;
-    margin-top: 30px;
 }
 
 #linklist{
@@ -173,4 +172,31 @@ h4{
     padding-bottom: 10px;
     position: absolute;
     margin-top: 0px;
+}
+
+#getstarttext{
+    text-align: center; width: 300px;
+    padding-left: 85px;
+}
+
+#apptext{
+    text-align: center; width: 300px;
+    padding-left: 80px;
+}
+
+#footerlist li{
+    list-style-type: none;
+    display: inline;
+    margin: 80px 30px 30px 90px;
+}
+#footer ul{
+    margin-top: 50px;
+}
+
+#copyright{
+    color: lightskyblue;
+    text-align: center; width: 970;
+    font-size: 8px;
+    margin-top: 35px;
+
 }
