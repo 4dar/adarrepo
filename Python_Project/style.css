@@ -140,8 +140,14 @@
     color: white;
     text-align:center;width:250px;height:370px; 
     list-style-position: inside;
+    list-style: none;
+
 }
 
+#linklist li:before{
+    content: "\00BB \0020";
+    color: #FED343;
+}
 #linklist li{
     margin-top: 18px;
     margin-right: 80px;
