@@ -236,3 +236,9 @@ a{
     color: white;
     border-radius: 5px;
 }
+
+.squarelistdots{
+    list-style: square;
+    width: 350px;
+    length: 300px;
+}
