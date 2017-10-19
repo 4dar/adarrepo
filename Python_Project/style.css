@@ -4,7 +4,7 @@
 
 #container{
     background-color: #265175;
-    height: 970px;
+    height: 940px;
     width: 970px;
 }
 
@@ -19,8 +19,10 @@
 #header p{
     display: inline-block;
     vertical-align: top;
-    margin-left: 420px;
     color: white;
+    padding-left: 70px;
+    margin-bottom: 0px;
+    font-size: 14px;
 }
 
 #blackline{
@@ -29,7 +31,146 @@
 
 #headright{
     display: inline-block;
-    background-color: blue;
+    vertical-align: top;
+    background-color: #265175;
     height: 120px;
-    width: 270px;
+    width: 277px;
+}
+
+#searchbackground{
+    display: inline-block;
+    background-color: #444444;
+    height: 65px;
+    width: 262px;
+    margin-top: 6px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px black;
+}
+
+#searchtextbox{
+    height: 30px;
+    width: 150px;
+    margin: 13px 5px 5px 40px;
+}
+
+#navbar{
+    background-color:#427BAB;
+    width: 900px;
+    height: 40px;
+    margin-left: 37px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px black;
+}
+
+#navbar ul li{
+    display: inline;
+    margin: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+#navbar ul{
+    padding-top: 11px;
+}
+
+#bodyleftcontainer{
+    vertical-align: top;
+    display: inline-block;
+    background-color: #265175;
+    height: 370px;
+    width: 250px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+#bodyrightcontainer{
+    vertical-align: top;
+    display: inline-block;
+    background-color: #265175;
+    height: 370px;
+    width: 645px;
+    margin-top: 20px;
+}
+.goldtext{
+    color: #FED343;
+    font-style: italic;
+    font-size: 18px;
+    text-align:center;width:645px;
+}
+#zenofpython{
+    color: white;
+    text-align:center;width:645px;
+}
+
+#introtext{
+    color: white;
+    font-size: 15px;
+    text-align:center;width:645px;
+}
+
+#whitearea{
+    background-color: #E9E9E9;
+    height: 270px;
+    width: 970px;
+}
+
+#leftwhite{
+    display: inline-block;
+    background-color: #E9E9E9;
+    height: 250px;
+    width: 505px;
+    margin-left: 40px;
+}
+
+#rightwhite{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #E9E9E9;
+    height: 250px;
+    width: 459px;
+}
+
+#footer{
+    background-color: lightblue;
+    height: 100px;
+    width: 970px;
+    margin-top: 30px;
+}
+
+#linklist{
+    color: white;
+    text-align:center;width:250px;height:370px; 
+    list-style-position: inside;
+}
+
+#linklist li{
+    margin-top: 18px;
+    margin-right: 80px;
+}
+
+.bluebar{
+    background-color: #75A8D3;
+    height: 3px;
+    width: 400px;
+}
+
+#leftbluebar{
+    margin-left: 70px;
+}
+
+#rightbluebar{
+    margin-left: 25px;
+}
+
+#leftwhite{
+    text-align: center;width: 450px;
+}
+#rightwhite{
+    text-align: center;width: 450px;
+}
+
+h4{
+    padding-bottom: 10px;
+    position: absolute;
+    margin-top: 0px;
 }
