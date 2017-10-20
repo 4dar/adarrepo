@@ -17,7 +17,7 @@
 #header h1{
     display: inline-block;
     color: white;
-    padding-left: 45px;
+    padding-left: 54px;
     font-weight: normal;    
 }
 
@@ -64,13 +64,15 @@
     display: inline-block;
     height: 40px;
     padding: 10px;
+    position: absolute;
+    z-index: 0;
 }
 
 h3{
     display: inline-block;
     vertical-align: top;
     color: white;
-    margin-left: -10px;
+    margin-left: 55px;
     font-weight: normal;
 }
 
@@ -79,6 +81,10 @@ h3{
     font-size: 11px;
     margin-top: -10px;
     padding: 0px 2px 0px 17px;
+}
+.whitecircle{
+    position: absolute;
+    z-index: -1;
 }
 
 .moreinfobuttons{
@@ -184,7 +190,7 @@ a{
 }
 
 #footer span{
-    color: #ADD3F0;
+    color: #8CC2E9;
 }
 
 .bubble 
