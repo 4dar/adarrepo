@@ -1,0 +1,174 @@
+#container{
+    background-color: #072133;
+    margin: 20px auto;
+    width: 980px;
+    height: 1030px;
+}
+
+#header{
+    background-color: #072133;
+    height: 60px;
+    width: 970px;
+}
+
+#header h1{
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header span{
+    color: #2184C4;
+}
+
+#navbar{
+    display: inline-block;
+}
+
+#navbar span{
+    color: white;
+}
+
+#header ul li{
+    display: inline;
+    margin-left: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bodywrap{
+    background-color: white;
+    height: 860px;
+    width: 940px;
+    margin: 20px 20px 0px 20px;
+}
+
+#snowboarder{
+    width: 900px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.infoboxes{
+    display: inline-block;
+    background-color: #1B69A6;
+    height: 200px;
+    width: 284px;
+    margin: 0px 0px 0px 20px;
+}
+
+.infoboxes img{
+    display: inline-block;
+    height: 40px;
+    padding: 10px;
+}
+
+h3{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+.infoboxes p{
+    color: white;
+    font-size: 13px;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.moreinfobuttons{
+    background-color: #4BACE9;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 110px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#buildingbox{
+    display: inline-block;
+}
+
+#buildingbox img{
+    width: 284px;
+    padding-left: 20px;
+}
+#buildingbox h4{
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#learnmorebox{
+    display: inline-block;
+    height: 160px;
+    width: 284px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+#testimonialbox{
+    display: inline-block;
+    vertical-align: top;
+    height: 160px;
+    width: 284px;
+    padding-left: 325px;
+}
+
+#testimonialbox h4{
+    padding-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#samanthaquote{
+    background-color: #DBEDFE;
+    padding: 20px 20px 50px 20px;
+    font-style: italic;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#samanthasignature{
+    font-size: 11px;
+}
+
+#footer{
+    background-color: #DBEDFE;
+    height: 70px;
+    width: 940px; 
+    margin: -15px 20px 0px 20px;
+}
+
+#footer ul{
+    padding-top: 25px;
+    padding-left: 310px;
+}
+
+#footer ul li{
+    display: inline;
+    padding: 12px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+
+a{
+    text-decoration: none;
+    color: #1B69A6;
+}
+
+#footer a{
+    color: #1B69A6;
+}
+
+#footer span{
+    color: #ADD3F0;
+}
