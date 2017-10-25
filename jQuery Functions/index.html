@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#click1').click(function(){
+                $('#ohshit').text('( . Y . )');
+            })
+            $('#hide').click(function(){
+                $('#seek').hide();
+            })
+            $('#show').click(function(){
+                $('#seek').show();
+            })
+            $('#toggler').click(function(){
+                $('#toggle').toggle("slow");
+            })
+            $('#slidebutton').click(function(){
+                $('#slider').slideUp();
+            })
+            $('#slidebutton2').click(function(){
+                $('#slider').slideDown();
+            })
+            $('#slidetoggle').click(function(){
+                $('#togslide').slideToggle();
+            })
+            $('#clickfade').click(function(){
+                $('#getfaded').fadeOut();
+            })
+            $('#clickunfade').click(function(){
+                $('#getfaded').fadeIn();
+            })
+            $('#addclasstome').click(function(){
+                $('#addclasstome').addClass("addclassplz");
+            })
+            $('#removethatclass').click(function(){
+                $('#addclasstome').removeClass("addclassplz");
+            })
+            $('#beforeclick').click(function(){
+                $('#beforeclick').before("OH SHIT SON!")
+            })
+            $('#afterclick').click(function(){
+                $('#afterclick').after("OH SHIT SON!")
+            })
+            $('#appendclick').click(function(){
+                $('h5').append(document.createTextNode("YOOOOOO!"));
+            })
+            $('#htmlthing').click(function(){
+                $('span').html("<i>shithead!</i>");
+            })
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1 id="ohshit">How to .Click</h1>
+            <button id="click1">Click this, fam</button>
+            <br>
+            <h1 id="seek">Seek</h1>
+            <button id="hide">Hide Seek</button>
+            <button id="show">Show Seek</button>
+            <br>
+            <h1 id="toggle">Toggle Me Slowly</h1>
+            <button id="toggler">Toggler</button>
+            <br>
+            <h1 id="slider">Slip N'</h1>
+            <button id="slidebutton">Slide Up!</button>
+            <button id="slidebutton2">Slide 'Er Down!</button>
+            <br>
+            <h1 id="togslide">Slide Me Toggle Style (baby)</h1>
+            <button id="slidetoggle">Toggle that slide yo</button>
+            <br>
+            <h1 id="getfaded">Are you high?</h1>
+            <button id="clickfade">Get Faded</button>
+            <button id="clickunfade">Sober Up</button>
+            <br>
+            <p id="addclasstome">Click me to add a red background to me!</p>
+            <p id="removethatclass">Click me to remove that background^</p>
+            <p id="beforeclick">click me to reveal magic above!</p>
+            <p id="afterclick">click me to reveal magic below!</p>
+            <br>
+            <h5>There's something I have to tell you...</h5>
+            <button id="appendclick">...if you click this...</button>
+            <br>
+            <h3>You are a <span>smartass!</span></h3>
+            <button id="htmlthing">Stop being a smartass</button>
+            <br>
+            <input type="text" value="some text">
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>

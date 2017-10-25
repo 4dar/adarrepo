@@ -1,9 +1,9 @@
-// function fancyArray(arr){
-//     for(var i = 0; i < arr.length; i++){
-//         console.log(i + " " + "->" + " " + arr[i]);
-//     }
-// }
-// fancyArray(["James", "Jill", "Jane", "Jack"]);
+function fancyArray(arr){
+    for(var i = 0; i < arr.length; i++){
+        console.log(i + " " + "->" + " " + arr[i]);
+    }
+}
+fancyArray(["James", "Jill", "Jane", "Jack"]);
 
 
 function fancyArray(arr, symbol){
@@ -26,4 +26,4 @@ function fancyArray(arr, symbol, reversed){
         }
     }
 }
-fancyArray(["James", "Jill", "Jane", "Jack"], '->', true);
+fancyArray(["James", "Jill", "Jane", "Jack"], '->', false);
