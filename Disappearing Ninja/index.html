@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".ninjapic").click(function(){
+                $(this).fadeOut();
+            })
+            $("#bringemback").click(function(){
+                $(".ninjapic").fadeIn();
+            })
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1 id="heading">Disappearing Ninja</h1>
+        <div class="ninjpix">
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <br>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        <p><img src="ninjapenguin.png" class="ninjapic" alt="Picture of a Penguin Ninja"></p>
+        </div>
+        <div id="footer">
+            <button id="bringemback">Bring 'em Back, baby</button>
+        </div>
+    </div>
+</body>
+</html>
