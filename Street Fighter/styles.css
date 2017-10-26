@@ -1,0 +1,149 @@
+#container{
+    background-color: black;
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+}
+
+#box{
+    display: block;
+    background-color: gray;
+    height: 160px;
+    width: 300px;
+    margin-left: 320px;
+    margin-top: 133px;
+}
+
+#box2{
+    display: block;
+    background-color: gray;
+    height: 160px;
+    width: 300px;
+    margin-left: 320px;
+    margin-top: 133px;
+    
+}
+
+h1{
+    padding-top: 10px;
+}
+
+.arenabuttons{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    margin: 3px;
+}
+
+#beachimg{
+    background-image: url(dojo_arena_photos-master/beach.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+}
+
+#dojoimg{
+    background-image: url(dojo_arena_photos-master/dojo.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+    background-size: cover;
+}
+
+#earthimg{
+    background-image: url(dojo_arena_photos-master/earth.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+    background-size: cover;
+}
+
+#forestimg{
+    background-image: url(dojo_arena_photos-master/forest.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+}
+
+#matriximg{
+    background-image: url(dojo_arena_photos-master/matrix.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+    background-size: cover;
+}
+
+#snowimg{
+    background-image: url(dojo_arena_photos-master/snow.jpg);
+    height: 570px;
+    padding-top: 100px;
+    width: 970px;
+    text-align:center;
+}
+
+.selectplayer{
+    width: 100px;
+    height: 20px;
+    background: black;
+    color: red;
+}
+
+.imagesofninjas1 img{
+    /* display: inline-block; */
+    height: 200px;
+}
+
+.imagesofninjas2 img{
+    /* display: inline-block; */
+    height: 200px;
+}
+
+#playersbox1{
+    display: inline-block;
+    margin-right: 300px;
+    padding-top: 45px;
+    position: relative;
+}
+
+#playersbox2{
+    display: inline-block;
+    position: relative;
+}
+
+#donnyl{
+    position: absolute;
+}
+
+#leol{
+    position: absolute;
+}
+
+#mikeyl{
+    position: absolute;
+}
+
+#raphaell{
+    position: relative;
+}
+
+#donnyr{
+    position: absolute;
+}
+
+#leor{
+    position: absolute;
+}
+
+#mikeyr{
+    position: absolute;
+}
+
+#raphaelr{
+    position: relative;
+}

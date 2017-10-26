@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='js/js.js'></script>
+</head>
+
+<body>
+    <button>Something else</button>
+    <!-- <form> -->
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" id="firstName" class="someCSSClass" value="Sensei"></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" id="lastName" value="Mike"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><br></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button>Submit this form</button></td>
+        </tr>
+    </table>
+    <!-- </form> -->
+    <div id="putButtonHere">
+
+    </div>
+    <p value="this is a value">The name of the person you are submitting is:</p>
+    <textarea id="output" sensei="mike">
+        seen on screen
+    </textarea>
+
+    <script>
+        var counter = 0;
+
+        $(document).ready(
+        function () {
+
+            $(document).on("click", "button", function () {
+                if (!$(this).hasClass("dynamic")) {
+                    $("#putButtonHere").append("<button class='dynamic' id='" + counter +
+                        "'>I'm mr meeseks! look at me!</button>")
+                    counter++;
+                } else {
+                    alert("I'm mr meeseks number " + $(this).attr("id") + " look at me!!!");
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Street Fighter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#box2").hide()
+            $(".imagesofninjas1").hide()
+            $(".imagesofninjas2").hide()
+
+            var selected = false;
+            
+            $(".arenabuttons").click(function(){
+                selected = true;
+                })
+
+            $(".arenabuttons").mouseenter(function(){
+                sourceID = $(this).attr("level")
+                // console.log(sourceID);
+                $("#container").attr("id", sourceID)
+            })
+
+            $(".arenabuttons").mouseleave(function(){
+                if(selected){
+                sourceID = "#" + $(this).attr("level")
+                $("#container").attr("id", sourceID)
+            }
+            else{
+                sourceID = "#" + $(this).attr("level")
+                $(sourceID).attr("id", "container")
+                }
+            })
+            
+           
+            $(".arenabuttons").click(function(){
+                $("#box").remove();
+                $("#box2").show();
+
+            })
+
+
+        });
+    </script>
+
+</head>
+<body>
+    <div id="container">
+            <div id="box">
+                <h1>Select Arena</h1>
+                <button class="arenabuttons" id="beach" level="beachimg">Beach</button>
+                <button class="arenabuttons" id="dojo" level="dojoimg">Dojo</button>
+                <button class="arenabuttons" id="earth" level="earthimg">Earth</button>
+                <button class="arenabuttons" id="forest" level="forestimg">Forest</button>
+                <button class="arenabuttons" id="matrix" level="matriximg">Matrix</button>
+                <button class="arenabuttons" id="snow" level="snowimg">Snow</button>
+            </div>
+            <div id="box2">
+                <h1>Select Character</h1>
+                <select name="Player 1" class="selectplayer">
+                    <option value="">Player 1</option>
+                    <option value="l1" id="donny1">Donny</option>
+                    <option value="l2" id="leo1">Leo</option>
+                    <option value="l3" id="mikey1">Mikey</option>
+                    <option value="l4" id="raphael1">Raphael</option>
+                </select>
+                <select name="Player 2" class="selectplayer">
+                    <option value="">Player 2</option>
+                    <option value="r1" id="donny2">Donny</option>
+                    <option value="r2" id="mikey2">Mikey</option>
+                    <option value="r3" id="leo2">Leo</option>
+                    <option value="r4" id="raphael2">Raphael</option>
+                </select>
+            </div>
+            <div id="playersbox1">
+                <div class="imagesofninjas1">
+                    <img id="donnyl" src="dojo_arena_photos-master/donny.png" alt="">
+                    <img id="leol" src="dojo_arena_photos-master/leo.png" alt="">
+                    <img id="mikeyl" src="dojo_arena_photos-master/mikey.png" alt="">
+                    <img id="raphaell" src="dojo_arena_photos-master/raphael.png" alt="">
+                </div>
+            </div>
+            <div id="playersbox2">
+                <div class="imagesofninjas2">
+                        <img id="donnyr" src="dojo_arena_photos-master/donny.png" alt="">
+                        <img id="leor" src="dojo_arena_photos-master/leo.png" alt="">
+                        <img id="mikeyr" src="dojo_arena_photos-master/mikey.png" alt="">
+                        <img id="raphaelr" src="dojo_arena_photos-master/raphael.png" alt="">
+                </div>
+            </div>
+    </div>
+</body>
+</html>
