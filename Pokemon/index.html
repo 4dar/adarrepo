@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        $(document).ready(function(){
+            $.get('https://pokeapi.co/api/v2/pokemon/1/', 
+                function(res) {
+                console.log(res); 
+            for(var i = 1; i < 152; i++){ 
+                $("p").append('<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'+[i]+'.png">'); 
+            }
+            }, "json");
+
+        });
+    </script>
+
+</head>
+<body>
+    <div id="container">
+        <p></p>
+        <div id="redbox">
+            <div id="whitebox">
+                <h1 id="pokemonname">Pokemon Name</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
