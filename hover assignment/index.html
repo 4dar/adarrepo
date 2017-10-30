@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hover Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $(".housepic").hover(function(){
+                $(this).attr("class", "twitterpic")
+            }, function(){
+                $(this).attr("class", "housepic")
+            })
+
+            $(".housepic").click(function(){
+                $("#endingspot").attr("class","twitterpic")
+            })
+            $(".housepic").click(function(){
+                $(this).css("border", "10px solid black")
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="container">
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="housepic" alt=""></p>
+        <p><img class="umbrellacorp" alt=""></p>
+        <div id="endingspot"></div>
+    </div>
+</body>
+</html>

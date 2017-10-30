@@ -1,0 +1,39 @@
+#container{
+    background-color: lightgray;
+    height: 500px;
+    width: 900px;
+}
+
+p{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+
+.twitterpic{
+    background-image: url(twitterlogo.jpeg);
+    width: 100px;
+    height: 100px;
+}
+
+.housepic{
+    background-image: url(houseicon.png);
+    width: 100px;
+    height: 100px;
+}
+
+.umbrellacorp{
+    background-image: url(umbrellacorp.gif);
+    width: 100px;
+    height: 100px;
+}
+
+#endingspot{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Thrones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+        //     $('img').click(function(){
+        //         var id = $(this).attr("id");
+        //         $.get('https://www.anapioficeandfire.com/api/houses/${id}', function(res) {
+        //         console.log(res);
+        //         var string = res.titles[0]
+        //         for(var)
+        //     })
+            
+        //     }
+        //     $('img').click()
+
+            $("#baratheonpic").click(function () {
+                $("#name").text("");
+                $("#words").text("");
+                $("#titles").text("");
+                $.get("https://anapioficeandfire.com/api/houses/15/", function (res) {
+                    console.log(res);
+                    $("#name").append(`Name: ${res.name}`);
+                    $("#words").append(`House Baratheon does not have any words.`);
+                    var titlesString = "";
+                    for (var i = 0; i < res.titles.length; i++) {
+                        titlesString += "Titles: ";
+                        titlesString += res.titles[i];
+                        titlesString += ", ";
+                    };
+                    $("#titles").append(titlesString);
+                }, "json");
+            })
+            $("#lannisterpic").click(function () {
+                $("#name").text("");
+                $("#words").text("");
+                $("#titles").text("");
+                $.get("https://anapioficeandfire.com/api/houses/229/", function (res) {
+                    console.log(res);
+                    $("#name").append(`Name: ${res.name}`);
+                    $("#words").append(`Words: ${res.words}`);
+                    var titlesString = "";
+                    for (var i = 0; i < res.titles.length; i++) {
+                        titlesString += "Titles: ";
+                        titlesString += res.titles[i];
+                        titlesString += ", ";
+                    };
+                    $("#titles").append(titlesString);
+                }, "json");
+            })
+            $("#starkpic").click(function () {
+                $("#name").text("");
+                $("#words").text("");
+                $("#titles").text("");
+                $.get("https://anapioficeandfire.com/api/houses/362/", function (res) {
+                    console.log(res);
+                    $("#name").append(`Name: ${res.name}`);
+                    $("#words").append(`Words: ${res.words}`);
+                    var titlesString = "";
+                    for (var i = 0; i < res.titles.length; i++) {
+                        titlesString += "Titles: ";
+                        titlesString += res.titles[i];
+                        titlesString += ", ";
+                    };
+                    $("#titles").append(titlesString);
+                }, "json");
+            })
+            $("#targaryenpic").click(function () {
+                $("#name").text("");
+                $("#words").text("");
+                $("#titles").text("");
+                $.get("https://anapioficeandfire.com/api/houses/378/", function (res) {
+                    console.log(res);
+                    $("#name").append(`Name: ${res.name}`);
+                    $("#words").append(`Words: ${res.words}`);
+                    var titlesString = "";
+                    for (var i = 0; i < res.titles.length; i++) {
+                        titlesString += "Titles: ";
+                        titlesString += res.titles[i];
+                        titlesString += ", ";
+                    };
+                    $("#titles").append(titlesString);
+                }, "json");
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <img id="baratheonpic" src="gameofthrones/baratheon.png" alt="House Baratheon">
+            <img id="lannisterpic" src="gameofthrones/lannister.jpg" alt="House Lannister">
+            <img id="starkpic" src="gameofthrones/stark.jpg" alt="House Stark">
+            <img id="targaryenpic" src="gameofthrones/targaryen.jpg" alt="House Targaryen">
+        </div>
+        <fieldset>
+            <legend>House Details</legend>
+            <p id="name">Name:</p>
+            <br>
+            <p id="words">Words:</p>
+            <br><br>
+            <p id="titles">Titles:</p>
+        </fieldset>
+    </div>
+</body>
+
+</html>

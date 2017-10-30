@@ -1,0 +1,25 @@
+#container{
+    background-color: lightgray;
+    height: 600px;
+    width: 900px;
+    padding-top: 20px;
+}
+
+#header{
+    background-color: gray;
+    height: 124px;
+    width: 840px;
+    margin: 10px auto;
+}
+
+img{
+    height: 124px;
+    display: inline-block;
+}
+
+fieldset{
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
